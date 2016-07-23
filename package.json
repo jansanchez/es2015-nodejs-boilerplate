@@ -1,0 +1,54 @@
+{
+  "name": "es2015-nodejs-boilerplate",
+  "version": "1.0.0",
+  "description": "es2015-nodejs-boilerplate",
+  "keywords": [
+    "javascript",
+    "es6",
+    "esnext",
+    "software",
+    "npm"
+  ],
+  "main": "index.js",
+  "bin": {},
+  "scripts": {
+    "lint": "xo index.js",
+    "dev": "pm2-dev run index.js",
+    "production": "webpack -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jansanchez/es2015-nodejs-boilerplate.git"
+  },
+  "author": {
+    "name": "jansanchez",
+    "email": "joejansanchez@gmail.com",
+    "url": "http://frontendlabs.io/author/jansanchez"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jansanchez/es2015-nodejs-boilerplate/issues"
+  },
+  "homepage": "https://github.com/jansanchez/es2015-nodejs-boilerplate#readme",
+  "dependencies": {
+    "request": "^2.73.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "pm2": "^1.1.3",
+    "webpack": "^1.13.1",
+    "webpack-node-externals": "^1.2.0",
+    "xo": "^0.16.0"
+  },
+  "xo": {
+    "esnext": true,
+    "rules": {
+      "babel/new-cap": 0,
+      "no-undef": 0,
+      "indent": 0,
+      "no-unused-vars": 0
+    }
+  }
+}
