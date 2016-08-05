@@ -31,7 +31,6 @@
   },
   "homepage": "https://github.com/jansanchez/es2015-nodejs-boilerplate#readme",
   "dependencies": {
-    "request": "^2.73.0"
   },
   "devDependencies": {
     "babel-cli": "^6.10.1",
